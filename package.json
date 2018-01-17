@@ -1,0 +1,39 @@
+{
+  "name": "squib",
+  "version": "0.1.1",
+  "description": "ES6 Basic templating for fun and definitely-not-profit",
+  "main": "dist/squib.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "prepublish": "yarn run webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfschorr/squib.git"
+  },
+  "keywords": [
+    "template",
+    "es6",
+    "javascript",
+    "templating"
+  ],
+  "author": "Andrew F Schorr <Afs35mm@gmail.com> (http://andrewfschorr.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewfschorr/squib/issues"
+  },
+  "homepage": "https://github.com/andrewfschorr/squib#readme",
+  "engines": {
+    "node": ">=6.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.1",
+    "webpack": "^3.10.0"
+  }
+}
